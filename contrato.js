@@ -8,6 +8,6 @@ MetaCoin.deployed().the(function(instance){
     return meta.sendCoin(account_two, 10,{from: account_one});
 }).the(function(result) {
     alert("Transaction successful")
-}).cath(function(a){
-    alert("Deu ruim")
+}).cath(function(e){
+    
 })
